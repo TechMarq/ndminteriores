@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    /*box-sizing: border-box;*/
+}
+html{
+    height: 100%;
+        
+}
+
+body{
+    background: url(img/background/rabisco1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    
+   
+}
+
+header{
+    height: 220px;
+}
+header img {
+    width: 300px;
+    
+    
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+       
+
+}
+.social img{
+    width: 68px;
+    filter: brightness(0) saturate(100%) invert(99%) sepia(3%) saturate(230%) hue-rotate(306deg) brightness(117%) contrast(100%);
+       
+}
+
+.interaction ul a li p{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 3px 0px 3px #B27371;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 5px 5px 10px #B27371;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 20px 55px;
+    height: 30px;
+    margin-top: 40px;
+}
+
+
+footer {
+    text-align: left;
+   margin-top: 150px;
+    margin-left: 45px;
+    font-size: 18px;
+       
+}
+footer p{
+    color: #B27371;
+}
+
+
+/*--------->>>>  RESPONSIVE    */
+
+@media (max-height: 720px) {
+    footer{
+        margin-top: 150px;
+    }
+    .interaction ul a li p{
+        font-size: 16px;
+        padding: 4px;
+        margin: 20px 55px;
+        height: 30px;
+        margin-top: 0px;
+    }
+    .social img{
+        width: 58px;
+    }
+    header{
+        width: 350px;
+        height: 180px;
+    }
+    header img{
+        width: 250px;
+        justify-content: center;
+    }
+}
+
+/*.back video{
+    position: absolute;
+    object-fit:fill;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    
+}*/
